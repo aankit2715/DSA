@@ -58,7 +58,7 @@ public class MinimumDaysForBouquets {
             high = Math.max(high, b);
         }
 
-        int res=-1;
+        int res=high;
         while(low <= high) {
             
             mid = low + (high-low)/2;
